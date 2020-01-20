@@ -16,10 +16,12 @@ maxnum = 0
 end
 
 def find_min_value(array)
-  minnum = 0
+  minnum = nil
   array.length.times do |minnum|
     if num < minnum
       minnum = num
     end
   end
-  maxnum
+  minnum
+end
+
