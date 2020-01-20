@@ -8,7 +8,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-maxnum = nil
+maxnum = 0
   array.length.times do |count|
     if array[count] > maxnum
       maxnum = array[count]
