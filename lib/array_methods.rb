@@ -1,16 +1,16 @@
 def find_element_index(array, value_to_find)
   array.length.times do |count|
-    if num == value_to_find
-     return array.index(num)
+    if array[count] == value_to_find
+     return count
     end
   end
 end
 
 def find_max_value(array)
 maxnum = 0
-  array.length.times do |num|
-    if num > maxnum
-      maxnum = num
+  array.length.times do |count|
+    if array[count] > maxnum
+      maxnum = array[count]
     end
   end
   maxnum
