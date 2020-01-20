@@ -18,7 +18,6 @@ maxnum = 0
 end
 
 def find_min_value(array)
-  minnum = nil
   array.length.times do |count|
     if array[count] < minnum
       minnum = array[count]
