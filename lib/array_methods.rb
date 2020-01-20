@@ -3,6 +3,7 @@ def find_element_index(array, value_to_find)
     if num == value_to_find
      return array.index(num)
     end
+  end
 end
 
 def find_max_value(array)
