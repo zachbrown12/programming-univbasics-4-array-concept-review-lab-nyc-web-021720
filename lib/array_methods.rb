@@ -18,9 +18,9 @@ end
 
 def find_min_value(array)
   minnum = nil
-  array.length.times do |minnum|
-    if num < minnum
-      minnum = num
+  array.length.times do |count|
+    if array[count] < minnum
+      minnum = array[count]
     end
   end
   minnum
