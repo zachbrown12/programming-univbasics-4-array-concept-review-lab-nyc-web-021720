@@ -19,7 +19,7 @@ def find_min_value(array)
   minnum = 0
   array.length.times do |minnum|
     if num < minnum
-      maxnum = num
+      minnum = num
     end
   end
   maxnum
